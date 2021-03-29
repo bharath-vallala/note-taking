@@ -1,0 +1,20 @@
+.notescontainer{
+    height: 500px;
+    width: 500px;
+}
+.notebox{
+    height: 500px;
+    width: 500px;
+    resize: none;
+    border: 1px solid #000000;
+}
+.titleinput{
+    padding: 0.5rem;
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+    border: 1px ridge #000000;
+}
+.datepick{
+    padding: 0.5rem;
+    margin: 1rem 0 0rem 0;
+}

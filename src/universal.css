@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.primaryButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: #42bcf5;
+    border-radius: 0.5rem;
+    color: white;
+    text-align:center;
+    font-weight: 500;
+    cursor: pointer;
+}
+.whiteButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: #fafafa;
+    border-radius: 0.5rem;
+    color: rgb(0, 5, 5);
+    text-align:center;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100px;
+}
+
+.searchbox{
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+   font-weight: 500;
+    border: solid 2px #42bcf5;
+    margin: 1rem;
+    width: 300px;
+    
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 1px 4px 12px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 4px 12px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 4px 12px -4px rgba(0,0,0,0.75);
+    border: 1px solid rgba(51, 51, 51, 0.123);
+   
+    width: 400px;
+    
+
+}
+.box {
+    position: relative;
+    margin: 40px auto;
+   
+    background: #fff;
+    border-radius: 2px;
+  }
+  
+  .box::before,
+  .box::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    width: 40%;
+    height: 10px;
+    box-shadow: 0 5px 14px rgba(0,0,0,.7);
+    z-index: -1;
+    transition: all .3s ease-in-out;
+    content: "";
+    height: 98%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .box::before {
+    left: 15px;
+    transform: skew(-5deg) rotate(-5deg);
+    background: #fafafa;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  left: -5px;
+  top: 4px;
+  transform: rotate(-2.5deg);
+  }
+  
+  .box::after {
+    right: 15px;
+    transform: skew(5deg) rotate(5deg);
+    background: #f6f6f6;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  right: -3px;
+  top: 1px;
+  transform: rotate(1.4deg);
+  }
+  
+  .box:hover::before,
+  .box:hover::after {
+    box-shadow: 0 2px 14px rgba(0,0,0,.4);
+  }
+  
+  .box:hover::before {
+    left: 5px;
+  }
+  
+  .box:hover::after {
+    right: 5px;
+  }
+  
+.flexcol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.alb{
+    align-items: baseline;
+}
+.secondaryButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: #42bcf5;
+    border-radius: 0.5rem;
+    color: white;
+    text-align:center;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0.5 1rem 0.5 1rem;
+    width: 100px;
+}
+
+.filterButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    color: rgb(0, 0, 0);
+    text-align:center;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0.5 1rem 0.5 1rem;
+    width: 100px;
+    border: 1px solid #333;
+}
+.closeBUtton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    color: rgb(243, 16, 16);
+    font-weight: bolder;
+    text-align:center;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0.5 1rem 0.5 1rem;
+    width: 50px;
+    border: 2px solid rgb(255, 5, 5);
+}
+
+.headingm{
+    
+    font-weight: 500;
+    padding: 0.2rem;
+    
+}
+.subheadingm{
+    padding: 0.2rem;
+    font-weight: 400;
+    text-align: start;
+   
+
+}
+.bigheading{
+    padding: 0.2rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: start;
+}
+.dimheading{
+    padding: 0.2rem;
+    font-weight: 500;
+    color: rgb(145, 142, 142);
+
+}
+
+.mar1{
+    margin-right: 1rem;
+    
+}
+.mart2{
+    margin-top: 2rem;
+}
+.mart1{
+    margin-top: 1rem;
+}
+
+.displaynone{
+    display: none;
+}
+
+.active{
+    border: 2px solid #42bcf5;
+}
+
+.ma{
+    margin: 1rem;
+}
+
+.warningtext{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    color: #00928b;;
+    padding: 0.2rem;
+    text-align: center;
+    border: 1px solid #00928b;
+    margin-bottom: 0.2rem;
+}
+.dangertext{
+    color: rgb(245, 0, 0);
+    font-weight: 600;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    border: 1px solid red ;
+    border-radius: 0.2rem;
+    text-align: center;
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+   
+    padding: 10px;
+    
+    
+  }
+  .grid-item {
+    text-align: center;
+    margin: 0.5rem;
+  }
